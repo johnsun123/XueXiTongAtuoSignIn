@@ -14,6 +14,7 @@
 4. 获取cookie和uid的方法（必须）：
   - 登录`http://mooc1-api.chaoxing.com/mycourse/backclazzdata?view=json&rss=1`
   - 按F12，在network中找到cookie，其中包含了uid
+  - ![cookie](https://github.com/johnsun123/XueXiTongAtuoSignIn/blob/master/cookies.png "cookie.png")
   - 将这两个参数填入`sign.py`中即可
   
 5. 准备邮件提醒的方法（可选）：
